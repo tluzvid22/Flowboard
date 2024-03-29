@@ -1,0 +1,126 @@
+/*ARTICLE No. 3 CSS*/
+article.article_no3 {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  background-color: white;
+  padding: 6rem 0 6rem 0;
+}
+
+article.article_no3 .headlines {
+  text-align: center;
+}
+
+article.article_no3 .headlines h2 {
+  font-size: 38px;
+}
+
+article.article_no3 .headlines p {
+  font-size: 16px;
+}
+
+article.article_no3 .case {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10rem 0 10rem;
+}
+
+article.article_no3 .case img {
+  width: 50rem;
+  height: auto;
+  min-width: 20rem;
+  border-radius: 8px;
+}
+
+article.article_no3 .case .description_case {
+  border: 0.5px solid var(--border3);
+  border-radius: 5px;
+  padding: 2.5rem;
+  color: var(--headline2);
+  width: 40rem;
+  margin-left: -2.5rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 0;
+  max-width: 100rem;
+  min-width: 16rem;
+}
+
+@media screen and (max-width: 1694px) {
+  article.article_no3 .case .description_case {
+    margin-top: -2.5rem;
+    max-width: 60%;
+    margin-left: 0;
+  }
+}
+
+article.article_no3 .case .description_case h3 {
+  font-size: 22px;
+  font-family: 'Poppins', 'Roboto', system-ui;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+}
+
+article.article_no3 .case .description_case p {
+  font-size: 22px;
+  font-family: 'Mulish', 'Roboto', system-ui;
+  margin-bottom: 1.25rem;
+  font-weight: 350;
+}
+
+article.article_no3 .case .description_case a {
+  color: var(--buttons);
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  font-family: 'Poppins', 'Roboto', system-ui;
+}
+
+article.article_no3 nav,
+article.article_no3 nav .indice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 0.75rem;
+  cursor: pointer;
+}
+
+article.article_no3 nav i {
+  color: #7A869A;
+  background-color: #F4F5F7;
+  border-radius: 50px;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article.article_no3 nav .indice {
+  gap: 0.3rem;
+  list-style: none;
+}
+
+article.article_no3 .not_selected {
+  background-color: var(--buttons);
+  opacity: 0.6;
+  padding: 0.4rem;
+  border-radius: 20px;
+  transition: all 0.3s ease 0s;
+}
+
+article.article_no3 .selected {
+  background-color: var(--buttons);
+  padding: 0.4rem 2.4rem 0.4rem 0.4rem;
+  border-radius: 20px;
+  opacity: 1;
+  transition: all 0.3s ease 0s;
+}

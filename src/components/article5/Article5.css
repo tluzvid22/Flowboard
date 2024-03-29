@@ -1,0 +1,17 @@
+/*ARTICLE No. 4 CSS*/
+article.article_no5 {}
+
+/* background-color: var(--article4bg);
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 12rem 0 12rem 0; */
+
+form,
+textarea,
+input {}
+
+.actual-step {
+  display: block;
+}

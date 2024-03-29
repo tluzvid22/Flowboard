@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Definir colores predeterminados */
+:root {
+  --headline1: #0F172A;
+  --headline2: #475569;
+  --headline3: #2D2D2D;
+  --buttons: #2563EB;
+  --border: #CBD5E1;
+  --border2: #E5F4F2;
+  --border3: #E2E8F0;
+  --logos_background: #F1F5F9;
+  --logos_color: #94A3B8;
+  --links: #067BC2;
+  --article4: #011627;
+  --article4bg: #161C2D;
+}
+
+/*CSS generales*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.headlines h2 {
+  font-family: 'Poppins', 'Roboto', system-ui;
+  font-size: 70px;
+  font-weight: bold;
+  line-height: 110%;
+  text-wrap: wrap;
+  color: var(--headline1);
+  margin-bottom: 24px;
+}
+
+.headlines p {
+  font-family: 'Mulish', 'Roboto', system-ui;
+  font-size: 21px;
+  line-height: 160%;
+  text-wrap: wrap;
+  color: var(--headline2);
+}
+
+button,
+a {
+  cursor: pointer;
+}
+
+button:hover,
+a:hover {
+  opacity: 0.9;
+}
+
+@media screen and (max-width: 1250px) {
+  header .navbar .links a {
+    display: none;
+  }
+}

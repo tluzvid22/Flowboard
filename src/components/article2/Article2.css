@@ -1,0 +1,66 @@
+/*ARTICLE No. 2 CSS*/
+article.article_no2 {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  background: linear-gradient(to bottom, #F1F5F9, #FFFFFF);
+  padding: 8rem 0 4rem 0;
+}
+
+article.article_no2 .headlines {
+  text-align: center;
+}
+
+article.article_no2 .headlines h2 {
+  font-size: 38px;
+  letter-spacing: -1.5px;
+}
+
+article.article_no2 .headlines p {
+  font-size: 16px;
+}
+
+article.article_no2 section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  gap: 1rem;
+}
+
+article.article_no2 section>* {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  text-wrap: wrap;
+  width: 400px;
+  background-color: white;
+  height: 420px;
+  border: 0.5px solid var(--border2);
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  color: var(--headline3);
+  font-family: 'Poppins', 'Roboto', system-ui;
+  font-size: 18px;
+}
+
+article.article_no2 section>* h3 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+  letter-spacing: -1.5px;
+}
+
+article.article_no2 section>* p {
+  font-family: 'Mulish', 'Roboto', system-ui;
+}
+
+article.article_no2 section>* a {
+  color: var(--links);
+  text-decoration: none;
+  font-weight: bold;
+}
