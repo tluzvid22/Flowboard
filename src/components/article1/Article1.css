@@ -5,11 +5,10 @@ article.articile_no1 {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  border-bottom: 1px solid #E2E8F0;
-  border-top: 1px solid #E2E8F0;
+  border-bottom: 1px solid #e2e8f0;
+  border-top: 1px solid #e2e8f0;
   gap: 2rem;
   padding: 0 3rem 0 3rem;
-  height: 55rem;
 }
 
 article.articile_no1 section.left {
@@ -27,16 +26,16 @@ article.articile_no1 section.left .register {
   flex-direction: row;
   align-items: center;
   gap: 1rem;
-  font-family: 'Poppins', 'Roboto', system-ui;
+  font-family: "Poppins", "Roboto", system-ui;
   flex-wrap: wrap;
 }
 
 article.articile_no1 section.left .register button {
   padding: 12px;
-  font-family: 'Mulish', 'Roboto', system-ui;
+  font-family: "Mulish", "Roboto", system-ui;
   flex-grow: 1;
   border: none;
-  background-color: #2563EB;
+  background-color: #2563eb;
   border-radius: 7px;
   color: #fff;
   display: flex;
@@ -60,7 +59,7 @@ article.articile_no1 section.left .register .input-container input {
   width: 100%;
   padding: 12px 31px;
   font-weight: 300;
-  font-family: 'Mulish', 'Roboto', system-ui;
+  font-family: "Mulish", "Roboto", system-ui;
   color: var(--headline2);
   font-size: 16px;
 }
@@ -91,17 +90,17 @@ article.articile_no1 section.left .logos {
   gap: 0.5rem;
 }
 
-article.articile_no1 section.left .logos>* {
+article.articile_no1 section.left .logos > * {
   display: flex;
   place-items: center;
   font-size: 18px;
-  font-family: 'Poppins', 'Roboto', system-ui;
+  font-family: "Poppins", "Roboto", system-ui;
   font-weight: 600;
   gap: 5px;
   letter-spacing: -0.5px;
 }
 
-article.articile_no1 section.left .logos>* .logo {
+article.articile_no1 section.left .logos > * .logo {
   font-size: 25px;
   width: 25px;
   height: auto;
